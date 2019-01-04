@@ -90,14 +90,6 @@ il void init()
 	dic[31] = (color) {121, 85, 72};
 }	
 
-il char Get_32base(int x)
-{
-	if (x < 10)
-		return x + '0';
-	else
-		return x - 10 + 'a';
-}
-
 il int Get_Dec(char ch)
 {
 	if (isdigit(ch))
